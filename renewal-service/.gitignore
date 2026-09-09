@@ -1,5 +1,58 @@
-target/
+# Compiled output
+WebContent/WEB-INF/classes/
+build/
+bin/
+dist/
 *.class
+
+# Deployable artifacts
+*.war
+*.ear
+*.jar.bak
+
+# Jasper compiled reports (source .jrxml is tracked)
+**/*.jasper
+
+# Eclipse / STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA
 .idea/
+*.iws
 *.iml
+*.ipr
+out/
+web/
+
+# Java compiled classes
+**/classes/
+*.class
+
+# Smart Tomcat
+.smarttomcat/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# OS
 .DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*~
