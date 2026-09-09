@@ -21,6 +21,8 @@ dist/
 .settings/
 .springBeans
 .sts4-cache
+.metadata/**
+.sonarlint/**
 
 # IntelliJ IDEA
 .idea/
