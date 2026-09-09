@@ -9,3 +9,4 @@ bin/
 .springBeans
 .env
 *.log
+/.sonarlint
